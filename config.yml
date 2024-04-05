@@ -1,0 +1,7 @@
+staging:
+  account: '448022715328'
+  region: 'us-east-2'
+
+production:
+  account: '448022715328'
+  region: 'us-east-2'
