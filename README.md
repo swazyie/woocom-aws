@@ -1,3 +1,12 @@
+## WooCom 
+
+- the stack resides in `lib/woocom-aws-stack.ts` where we can tell cloudformation what cloud resources(with specific config) we want to provision (IaC). This is where we have dyanmoDB and the s3 bucket setup right now.
+
+- the lambda code will be in the lambdas folder. any other new lambdas will follow this pattern (code in folder, lambda handler declaration in the stack.ts file)
+
+- futher architecutre will have lambdas using db clients to use dynamo (for insertions and read eg)
+
+
 ## WooCom - Sameer quick notes
 
 * API gateway needed for public facing APIs -- and for frontend. Can use Cloudfront Edge CDNs for the frontend page load optimizations as well 
