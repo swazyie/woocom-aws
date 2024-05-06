@@ -1,5 +1,17 @@
 # WooCom
+### running
+`aws configure`
+`npm install -g aws-cdk`
+`npm install`
+`npm run build`
+`cdk deploy `
+### test
+`npm test`
 
+* optional: synthesize the CloudFormation template from cdk
+`cdk synth`
+
+### notes
 * Infrastructure as Code: The stack resides in lib/woocom-aws-stack.ts where we can tell CloudFormation what cloud resources (with specific config) we want to provision. This is where we have DynamoDB and the S3 bucket setup right now.
 * Lambda Functions: The lambda code will be in the lambdas folder. Any other new lambdas will follow this pattern (code in folder, lambda handler declaration in the stack.ts file).
 * Database Operations: Further architecture will have lambdas using db clients to use DynamoDB (for insertions and read eg).
