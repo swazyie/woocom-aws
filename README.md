@@ -17,6 +17,9 @@
 * Database Operations: Further architecture will have lambdas using db clients to use DynamoDB (for insertions and read eg).
 * Frontend Deployment: We will utilize Amplify for continuous deployment (CD) of our frontend resources, hosting them in an S3 bucket and delivering via CloudFront. (just s3 in this example)
 * Backend APIs: api gateway authenticates and handles routing to lambda. lambda has specifc iam policies when calling actions to dynamoDB table.
+* Within VPC - Lambda Function Execution Roles: now we are within the VPC, specific managed policies are added to the service roles associated with the Lambda functions:
+    * `AWSLambdaVPCAccessExecutionRole`: Grants the necessary permissions for Lambda functions to execute within a VPC, ensuring secure network interactions and access control when connecting to other AWS services like RDS or ElastiCache inside a VPC.
+    * `AWSLambdaBasicExecutionRole`: Provides permissions for Lambda functions to log to Amazon CloudWatch, which is vital for monitoring function execution and debugging issues.
 * User Authentication and API Access Control: use AWS Cognito for user management. All API requests must include a valid JWT token provided upon user authentication. Managed service also includes sign-ups, sign-in, and securing API access.
 # WooCom - Sameer Quick Notes
 
