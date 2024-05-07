@@ -15,10 +15,9 @@
 * Infrastructure as Code: The stack resides in lib/woocom-aws-stack.ts where we can tell CloudFormation what cloud resources (with specific config) we want to provision. This is where we have DynamoDB and the S3 bucket setup right now.
 * Lambda Functions: The lambda code will be in the lambdas folder. Any other new lambdas will follow this pattern (code in folder, lambda handler declaration in the stack.ts file).
 * Database Operations: Further architecture will have lambdas using db clients to use DynamoDB (for insertions and read eg).
-* Integration with AWS Amplify: To enhance our project's frontend and backend capabilities, we are integrating AWS Amplify. Amplify will help in setting up and deploying scalable applications with features like hosting, authentication, and API management:
-* Frontend Deployment: We will utilize Amplify for continuous deployment (CD) of our frontend resources, hosting them in an S3 bucket and delivering via CloudFront.
-* Backend APIs: Amplify will also be used to manage backend APIs created with API Gateway and AWS Lambda, ensuring seamless interaction with our frontend.
-
+* Frontend Deployment: We will utilize Amplify for continuous deployment (CD) of our frontend resources, hosting them in an S3 bucket and delivering via CloudFront. (just s3 in this example)
+* Backend APIs: api gateway authenticates and handles routing to lambda. lambda has specifc iam policies when calling actions to dynamoDB table.
+* User Authentication and API Access Control: use AWS Cognito for user management. All API requests must include a valid JWT token provided upon user authentication. Managed service also includes sign-ups, sign-in, and securing API access.
 # WooCom - Sameer Quick Notes
 
 * API Gateway: Needed for public facing APIs -- and for frontend. Can use CloudFront Edge CDNs for the frontend page load optimizations as well.

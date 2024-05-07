@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2024-05-07T19:36:07.384Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="kh6sqdWVwhbUJoEl64MW" version="24.3.1">
+  <diagram name="Page-1" id="f6N7Wfgh_s2ParNuC-9K">
+    <mxGraphModel dx="1130" dy="1895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IwDkLJ28mmgLb4watsOf-17" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="205" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="IwDkLJ28mmgLb4watsOf-18" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.laptop;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="50" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="IwDkLJ28mmgLb4watsOf-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="240" as="sourcePoint" />
+            <mxPoint x="230" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IwDkLJ28mmgLb4watsOf-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="220" as="sourcePoint" />
+            <mxPoint x="240" y="9" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IwDkLJ28mmgLb4watsOf-24" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-20" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="IwDkLJ28mmgLb4watsOf-25" value="html,css,js files served from s3 bucket" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-20" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IwDkLJ28mmgLb4watsOf-27" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" vertex="1" parent="1">
+          <mxGeometry x="230" y="199" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="IwDkLJ28mmgLb4watsOf-28" value="HTTP requests" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="115" y="199" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IwDkLJ28mmgLb4watsOf-33" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.dynamo_db;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="750" y="205" width="72" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="IwDkLJ28mmgLb4watsOf-34" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.iam;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="513.5" y="286" width="42" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="IwDkLJ28mmgLb4watsOf-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="IwDkLJ28mmgLb4watsOf-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="246" as="sourcePoint" />
+            <mxPoint x="680" y="199" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="670" y="246" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IwDkLJ28mmgLb4watsOf-36" value="Lambda has IAM policies for accessing DynamoDB" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IwDkLJ28mmgLb4watsOf-38" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#DD344C;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cognito;" vertex="1" parent="1">
+          <mxGeometry x="240" y="420" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="IwDkLJ28mmgLb4watsOf-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="260" as="sourcePoint" />
+            <mxPoint x="240" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="70" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IwDkLJ28mmgLb4watsOf-41" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="IwDkLJ28mmgLb4watsOf-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="308" y="239" as="sourcePoint" />
+            <mxPoint x="358" y="189" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IwDkLJ28mmgLb4watsOf-42" value="Authentication service (Cognito) signs JWT&amp;nbsp;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IwDkLJ28mmgLb4watsOf-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="480" as="sourcePoint" />
+            <mxPoint x="60" y="260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IwDkLJ28mmgLb4watsOf-44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="250" as="sourcePoint" />
+            <mxPoint x="100" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IwDkLJ28mmgLb4watsOf-45" value="HTTP response&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IwDkLJ28mmgLb4watsOf-46" value="matches routes, authes valid JWT" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
